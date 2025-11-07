@@ -18,7 +18,13 @@ A modern static website for KyszTech Pvt. Ltd. built with React 19, TypeScript, 
 cd kysztech-site
 ```
 
-2. Install dependencies:
+2. Use Node.js 20 (project uses nvm):
+```bash
+source ~/.nvm/nvm.sh
+nvm use 20
+```
+
+3. Install dependencies:
 ```bash
 npm install
 ```
@@ -27,10 +33,14 @@ npm install
 
 Start the development server:
 ```bash
+source ~/.nvm/nvm.sh
+nvm use 20
 npm run dev
 ```
 
-The site will be available at `http://localhost:5173`
+The site will be available at:
+- **Local**: `http://localhost:5173`
+- **Network**: `http://YOUR_IP:5173` (accessible from other devices on same network)
 
 ## 🏗️ Build
 
