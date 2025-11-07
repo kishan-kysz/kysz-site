@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply m-0 font-sans antialiased;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .gradient-primary {
+    @apply bg-gradient-to-r from-[#6C63FF] to-[#9F8CFF];
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-[#6C63FF] to-[#9F8CFF] bg-clip-text text-transparent;
+  }
+  
+  .btn-primary {
+    @apply gradient-primary text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-[#6C63FF] px-6 py-3 rounded-2xl font-semibold transition-all duration-300 hover:shadow-lg hover:scale-105;
+  }
+}
