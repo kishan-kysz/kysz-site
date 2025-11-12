@@ -23,7 +23,7 @@ const Industries = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Industries We Serve
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ const Industries = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {industries.map((industry, index) => (
             <motion.div
               key={index}
@@ -42,7 +42,7 @@ const Industries = () => {
               className="bg-white rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
               <div className="text-4xl mb-3">{industry.icon}</div>
-              <div className="text-lg font-semibold text-gray-900">{industry.name}</div>
+              <div className="text-lg font-semibold" style={{ color: 'rgb(30, 58, 138)' }}>{industry.name}</div>
             </motion.div>
           ))}
         </div>
