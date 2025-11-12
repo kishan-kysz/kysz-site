@@ -26,7 +26,7 @@ const Partners = () => {
           </p>
         </motion.div>
 
-        <div className="bg-gradient-to-r from-[#6C63FF] to-[#9F8CFF] rounded-2xl p-8 sm:p-12">
+        <div className="bg-gradient-to-r from-[#14a1d5] to-[#3db8e8] rounded-2xl p-8 sm:p-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
             {partners.map((partner, index) => (
               <motion.div

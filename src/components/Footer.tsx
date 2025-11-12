@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Logo from './Logo';
 
 const Footer = () => {
   return (
@@ -7,11 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">K</span>
-              </div>
-              <span className="text-xl font-bold">KyszTech</span>
+            <div className="mb-4">
+              <Logo showText={true} size="md" className="text-white" />
             </div>
             <p className="text-gray-400 text-sm mb-4">
               Empowering Innovation with Smarter AI, Stronger Cloud, and Safer Modernized Systems.
@@ -104,7 +102,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your email"
-                className="w-full px-4 py-2 rounded-lg bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]"
+                className="w-full px-4 py-2 rounded-lg bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#14a1d5]"
               />
               <button
                 type="submit"

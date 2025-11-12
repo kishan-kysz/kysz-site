@@ -43,7 +43,7 @@ const BlogsSection = () => {
           </div>
           <Link
             to="/blogs"
-            className="hidden md:block text-[#6C63FF] font-semibold hover:underline"
+            className="hidden md:block text-[#14a1d5] font-semibold hover:underline"
           >
             View All →
           </Link>
@@ -59,7 +59,7 @@ const BlogsSection = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
             >
-              <div className="h-48 bg-gradient-to-br from-[#6C63FF] to-[#9F8CFF] flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-br from-[#14a1d5] to-[#3db8e8] flex items-center justify-center">
                 {blog.imageUrl ? (
                   <img src={blog.imageUrl} alt={blog.title} className="w-full h-full object-cover" />
                 ) : (
@@ -75,7 +75,7 @@ const BlogsSection = () => {
                 </p>
                 <Link
                   to="/blogs"
-                  className="text-[#6C63FF] font-semibold hover:underline inline-flex items-center"
+                  className="text-[#14a1d5] font-semibold hover:underline inline-flex items-center"
                 >
                   Read More
                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

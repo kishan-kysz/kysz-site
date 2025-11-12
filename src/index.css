@@ -19,18 +19,18 @@
 
 @layer components {
   .gradient-primary {
-    @apply bg-gradient-to-r from-[#6C63FF] to-[#9F8CFF];
+    @apply bg-gradient-to-r from-[#14a1d5] to-[#3db8e8];
   }
   
   .gradient-text {
-    @apply bg-gradient-to-r from-[#6C63FF] to-[#9F8CFF] bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#14a1d5] to-[#3db8e8] bg-clip-text text-transparent;
   }
   
   .btn-primary {
-    @apply gradient-primary text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105;
+    @apply gradient-primary text-white px-5 py-2 rounded-xl font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105;
   }
   
   .btn-secondary {
-    @apply bg-white text-[#6C63FF] px-6 py-3 rounded-2xl font-semibold transition-all duration-300 hover:shadow-lg hover:scale-105;
+    @apply bg-white text-[#14a1d5] px-5 py-2 rounded-xl font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:scale-105;
   }
 }

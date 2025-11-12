@@ -72,7 +72,7 @@ const CaseStudies = () => {
               className="bg-white rounded-2xl shadow-lg overflow-hidden"
             >
               <div className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="relative h-64 lg:h-full bg-gradient-to-br from-[#6C63FF] to-[#9F8CFF]">
+                <div className="relative h-64 lg:h-full bg-gradient-to-br from-[#14a1d5] to-[#3db8e8]">
                   {study.imageUrl ? (
                     <img src={study.imageUrl} alt={study.title} className="w-full h-full object-cover" />
                   ) : (
@@ -82,7 +82,7 @@ const CaseStudies = () => {
                   )}
                 </div>
                 <div className="p-8 lg:p-12">
-                  <div className="inline-block px-3 py-1 bg-[#E8E4FF] text-[#6C63FF] rounded-full text-sm font-semibold mb-4">
+                  <div className="inline-block px-3 py-1 bg-[#E0F7FA] text-[#14a1d5] rounded-full text-sm font-semibold mb-4">
                     {study.industry}
                   </div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
@@ -102,7 +102,7 @@ const CaseStudies = () => {
                       <ul className="space-y-2">
                         {study.results.map((result, idx) => (
                           <li key={idx} className="flex items-start">
-                            <svg className="w-5 h-5 text-[#6C63FF] mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-[#14a1d5] mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                             <span className="text-gray-700">{result}</span>

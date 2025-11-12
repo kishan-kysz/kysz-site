@@ -8,10 +8,11 @@ export default {
     extend: {
       colors: {
         primary: {
-          start: '#6C63FF',
-          end: '#9F8CFF',
+          DEFAULT: '#14a1d5',
+          light: '#3db8e8',
+          dark: '#0d7ba8',
         },
-        accent: '#E8E4FF',
+        accent: '#E0F7FA',
         dark: '#0B0B2B',
       },
       fontFamily: {

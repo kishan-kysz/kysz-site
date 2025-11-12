@@ -61,7 +61,7 @@ const ContactSection = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#6C63FF] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#14a1d5] focus:border-transparent"
                 />
               </div>
               <div>
@@ -75,7 +75,7 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#6C63FF] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#14a1d5] focus:border-transparent"
                 />
               </div>
             </div>
@@ -90,7 +90,7 @@ const ContactSection = () => {
                   name="company"
                   value={formData.company}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#6C63FF] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#14a1d5] focus:border-transparent"
                 />
               </div>
               <div>
@@ -103,7 +103,7 @@ const ContactSection = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#6C63FF] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#14a1d5] focus:border-transparent"
                 />
               </div>
             </div>
@@ -118,7 +118,7 @@ const ContactSection = () => {
                 onChange={handleChange}
                 rows={5}
                 required
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#6C63FF] focus:border-transparent"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#14a1d5] focus:border-transparent"
               />
             </div>
             <div className="text-center">

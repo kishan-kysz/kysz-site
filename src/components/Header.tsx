@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Logo from './Logo';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,27 +31,20 @@ const Header = () => {
       }`}
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">K</span>
-            </div>
-            <span className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-gray-900'}`}>
-              KyszTech
-            </span>
-          </Link>
+          <Logo showText={true} size="md" />
 
           {/* Navigation Links */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 className={`text-sm font-medium transition-colors ${
                   location.pathname === link.path
-                    ? 'text-[#6C63FF]'
-                    : 'text-gray-700 hover:text-[#6C63FF]'
+                    ? 'text-[#14a1d5]'
+                    : 'text-gray-700 hover:text-[#14a1d5]'
                 }`}
               >
                 {link.label}
@@ -95,8 +89,8 @@ const Header = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`px-4 py-2 text-base font-medium transition-colors ${
                     location.pathname === link.path
-                      ? 'text-[#6C63FF]'
-                      : 'text-gray-700 hover:text-[#6C63FF]'
+                      ? 'text-[#14a1d5]'
+                      : 'text-gray-700 hover:text-[#14a1d5]'
                   }`}
                 >
                   {link.label}

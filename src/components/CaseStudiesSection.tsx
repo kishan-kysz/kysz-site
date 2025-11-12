@@ -43,7 +43,7 @@ const CaseStudiesSection = () => {
           </div>
           <Link
             to="/case-studies"
-            className="hidden md:block text-[#6C63FF] font-semibold hover:underline"
+            className="hidden md:block text-[#14a1d5] font-semibold hover:underline"
           >
             View All →
           </Link>
@@ -59,11 +59,11 @@ const CaseStudiesSection = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="relative rounded-2xl overflow-hidden shadow-lg group"
             >
-              <div className="h-64 bg-gradient-to-br from-[#6C63FF] to-[#9F8CFF] relative">
+              <div className="h-64 bg-gradient-to-br from-[#14a1d5] to-[#3db8e8] relative">
                 {study.imageUrl ? (
                   <img src={study.imageUrl} alt={study.title} className="w-full h-full object-cover" />
                 ) : (
-                  <div className="w-full h-full bg-gradient-to-br from-[#6C63FF] to-[#9F8CFF] flex items-center justify-center">
+                  <div className="w-full h-full bg-gradient-to-br from-[#14a1d5] to-[#3db8e8] flex items-center justify-center">
                     <div className="text-white text-4xl">📊</div>
                   </div>
                 )}
