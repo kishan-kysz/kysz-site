@@ -31,7 +31,7 @@ const Industries = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {industries.map((industry, index) => (
             <motion.div
               key={index}
@@ -39,7 +39,7 @@ const Industries = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
-              className="bg-white rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              className="bg-white rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-gray-200"
             >
               <div className="text-4xl mb-3">{industry.icon}</div>
               <div className="text-lg font-semibold" style={{ color: 'rgb(30, 58, 138)' }}>{industry.name}</div>
