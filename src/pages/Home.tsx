@@ -2,6 +2,7 @@ import Hero from '../components/Hero';
 import FeatureSection from '../components/FeatureSection';
 import ServicesGrid from '../components/ServicesGrid';
 import Partners from '../components/Partners';
+import TechnologiesSection from '../components/TechnologiesSection';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Industries from '../components/Industries';
 import BlogsSection from '../components/BlogsSection';
@@ -25,6 +26,7 @@ const Home = () => {
       />
       <ServicesGrid />
       <Partners />
+      <TechnologiesSection />
       <WhyChooseUs />
       <Industries />
       <BlogsSection />
